@@ -1,16 +1,24 @@
-# vezdecode_flutetr
+# FLUTTER
+- Команда: tipatima
+- Задание: flutter
+## Как добавлять товары
+Информация по всем товарам хранится в текстовом файле ```products.json```, который находится в папке ```configs```.
+Содержимое файла выглядит следующим образом:
+```
+[
+		{
+			id: 2, //id товара
+			title: 'Мягкая игрушка Сеня', //название товара
+			price: 60, //стоимость товара
+			description: 'Это то, что вам нужно!', //описание товара
+			count: 2, //колличество товара на складе
+			isAuction: false, //Включен ли режим аукциона
+		}
+]
+```
+Вы можете редактировать данный список, удалять, добавлять и редактировать объекты товаров.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Данные о корзине хранятся на устройстве пользвателя. В дальнейшем возможно поддключение api для хранения данных на сервере.
+## Контакты
+- Вконтакте - [Кирилл Осинцев](https://vk.com/crashzy)
+- Telegram - [crashzy](https://t.me/crashzy)
